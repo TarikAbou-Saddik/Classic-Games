@@ -1,3 +1,11 @@
+/**
+ * @author Tarik Abou-Saddik <tarik.abousaddik@gmail.com>
+ * @file Basic logic for simple game of Pong
+ * 
+ * Large majority of code was provided from 
+ * Chris DeLeon's Udemy Course on HTML5 Canvas
+ */
+
 var canvas;
 var canvasContext;
 
@@ -19,7 +27,7 @@ var startScreenY = 350;
 var startSpeedX = 8;
 var startSpeedY = 4;
 
-const WINNING_SCORE = 3;
+const WINNING_SCORE = 5;
 const PADDLE_HEIGHT = 150;
 const PADDLE_WIDTH = 20;
 const BALL_WIDTH = 20, BALL_HEIGHT = 20;

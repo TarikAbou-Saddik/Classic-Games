@@ -4,7 +4,7 @@ var context;
 // Width of Stats screen & starting x pos of main screen
 const WIN2_START = 220;
 // Size of a block item
-const BLOCK_SIZE = 30;
+const BLOCK_SIZE = 20;
 
 // X and Y coords of each block making up the "I" item
 var IX1 = WIN2_START + 10, IX2 = WIN2_START + 10 + BLOCK_SIZE,  IX3 = (WIN2_START + 10) + 2 * BLOCK_SIZE;
